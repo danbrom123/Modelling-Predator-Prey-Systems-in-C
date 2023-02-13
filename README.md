@@ -8,7 +8,11 @@ $\dot{x}\left ( x,y \right ) = \alpha x - \beta xy - \kappa x^2$
 
 $\dot{y}\left ( x,y \right ) = \delta x - \gamma y - \lambda y^2$.
 
-These express how the rate of change of population for both prey ($\dot{x}$) and predators ($\dot{y}$), within a binary-system, is dependant on a number of parameters, including, the prey's birth rate ($\alpha$), predators eating prey ($\beta$), predator death rate ($\gamma$), the coupling relation between predator population growth and prey population size ($\delta x$), the effects of the local environment on the prey population ($\kappa$) and the effects of the local environment on the predator population ($\lambda$)
+These express how the rate of change of population for both prey $(\dot{x})$ and predators $(\dot{y})$, within a binary-system, is dependant on a number of parameters, including, the prey's birth rate $(\alpha)$, predators eating prey $(\beta)$, predator death rate $(\gamma)$, the coupling relation between predator population growth and prey population size $(\delta x)$, the effects of the local environment on the prey population $(\kappa)$ and the effects of the local environment on the predator population $(\lambda)$.
 
-As the Lotka-Volterra equations are first order N-LDEs, they cannot be solved directly when using computer code. They therefore have to be solved iteratively. In order to achieve this, we employ the Runge-Kutta method.
+As the Lotka-Volterra equations are first order N-LDEs, they cannot be solved directly when using computer code. They therefore have to be solved iteratively, in this case using the Runge-Kutta method (see Report.pdf).
+
+
+
+
 
